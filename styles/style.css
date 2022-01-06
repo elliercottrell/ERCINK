@@ -1,0 +1,56 @@
+body {
+  font-family: "PT Mono";
+  color: #52702b;
+  background: #f7f2f0;
+}
+.landing a {
+  color: #f95959;
+  font-family: monospace;
+  font-weight: 900;
+  text-align: center;
+  font-size: 200px;
+  text-decoration: none;
+}
+.landing:hover {
+  text-shadow: -10px 10px 0px white;
+  transition: all 200ms ease-in-out;
+  cursor: grabbing;
+}
+.ercinktitle {
+  text-decoration: none;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #f95959;
+}
+
+.pteridomania {
+  color: #52702b;
+}
+
+.names a {
+  letter-spacing: 3px;
+  color: #52702b;
+  text-decoration: none;
+}
+.names a:hover {
+  opacity: 50%;
+  color: #ebccc4;
+}
+
+.container {
+  max-width: 900px;
+}
+button {
+  color: #52702b;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background: #f7f2f0;
+  border: 1px solid #ebccc4;
+}
+
+button:hover {
+  opacity: 50%;
+}
