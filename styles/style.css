@@ -23,6 +23,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 10px;
   color: #f95959;
+  margin: 0 auto;
 }
 
 .pteridomania {
@@ -53,4 +54,12 @@ button {
 
 button:hover {
   opacity: 50%;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link:hover {
+  opacity: 20%;
 }
