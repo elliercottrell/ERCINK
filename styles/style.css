@@ -1,10 +1,10 @@
 body {
   font-family: "PT Mono";
-  color: #52702b;
+  color: #698474;
   background: #f7f2f0;
 }
 .landing a {
-  color: #e7b3b3;
+  color: #698474;
   font-family: monospace;
   font-weight: 900;
   text-align: center;
@@ -22,17 +22,12 @@ body {
 h1 {
   text-transform: uppercase;
   letter-spacing: 10px;
-  color: #e7b3b3;
+  color: #698474;
   margin: 0 auto;
 }
-
-.pteridomania {
-  color: #52702b;
-}
-
 .names a {
   letter-spacing: 3px;
-  color: #52702b;
+  color: #698474;
   text-decoration: none;
 }
 .names a:hover {
@@ -44,7 +39,7 @@ h1 {
   max-width: 900px;
 }
 button {
-  color: #52702b;
+  color: #698474;
   font-size: 13px;
   text-transform: uppercase;
   padding: 5px 10px;
