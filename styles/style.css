@@ -1,7 +1,11 @@
 body {
   font-family: "PT Mono";
   color: #698474;
-  background: #f7f2f0;
+  background: #2d2d2e;
+  border: 6px solid #f7f2f0;
+}
+.landing {
+  margin-bottom: 100px;
 }
 .landing a {
   color: #698474;
@@ -10,9 +14,10 @@ body {
   text-align: center;
   font-size: 200px;
   text-decoration: none;
+  cursor: crosshair;
 }
 .landing:hover {
-  text-shadow: -10px 10px 0px white;
+  text-shadow: -10px 10px 0px #f7f2f0;
   transition: all 200ms ease-in-out;
   cursor: grabbing;
 }
@@ -23,7 +28,8 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 10px;
   color: #698474;
-  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 .names a {
   letter-spacing: 3px;
@@ -36,7 +42,11 @@ h1 {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 800px;
+}
+
+.second-group {
+  margin-bottom: 200px;
 }
 button {
   color: #698474;
@@ -57,4 +67,46 @@ button:hover {
 
 .nav-link:hover {
   opacity: 20%;
+}
+
+.footer {
+  margin: 100px;
+}
+.foot {
+  margin-bottom: 20px;
+  background-color: #f7f2f0;
+  padding: 10px;
+  margin: 0;
+  margin-right: -100;
+}
+
+.erc-ink,
+.insta {
+  color: var(--background-color);
+  text-decoration: none;
+  font-style: italic;
+  font-size: 13px;
+}
+.erc-ink:hover,
+.insta:hover {
+  color: var(--branding-color);
+  opacity: 50%;
+}
+
+.insta {
+  float: right;
+}
+
+h3 {
+  color: var(--branding-color);
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 600px;
+  }
 }
