@@ -1,6 +1,6 @@
 :root {
-  --primary-font-family: "Gill Sans";
-  --secondary-font-family: "PT Mono";
+  --primary-font-family: "Gill sans";
+  --secondary-font-family: "PT Mono", monospace;
   --primary-color: #2d2d2e;
   --secondary-color: #698474;
   --highlight-color: #f7f2f0;
