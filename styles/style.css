@@ -1,33 +1,43 @@
+:root {
+  --primary-font-family: "Gill Sans";
+  --secondary-font-family: "PT Mono";
+  --primary-color: #2d2d2e;
+  --secondary-color: #698474;
+  --highlight-color: #f7f2f0;
+}
+
 body {
-  font-family: "PT Mono";
-  color: #698474;
-  background: #2d2d2e;
-  border: 6px solid #f7f2f0;
+  background: var(--primary-color);
+  border: 6px solid var(--highlight-color);
+  color: var(--secondary-color);
 }
 .landing {
   margin-bottom: 100px;
 }
 .landing a {
-  color: #698474;
+  color: var(--secondary-color);
+  cursor: crosshair;
   font-family: monospace;
+  font-size: 200px;
   font-weight: 900;
   text-align: center;
-  font-size: 200px;
   text-decoration: none;
-  cursor: crosshair;
 }
 .landing:hover {
-  text-shadow: -10px 10px 0px #f7f2f0;
-  transition: all 200ms ease-in-out;
   cursor: grabbing;
+  text-shadow: -10px 10px 0px var(--highlight-color);
+  transition: all 200ms ease-in-out;
 }
 
 ul {
-  list-style: none;
-  text-align: right;
-  margin: 20px;
+  font-family: var(--secondary-font-family);
+  font-size: 12px;
   font-style: italic;
-  font-size: 13px;
+  letter-spacing: 1px;
+  list-style: none;
+  margin: 30px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 li {
@@ -35,21 +45,23 @@ li {
   padding: 5px;
 }
 
-h1 {
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  color: #698474;
-  margin-top: 200px;
-  margin-bottom: 100px;
-}
-.names a {
-  letter-spacing: 3px;
-  color: #698474;
+.menu a {
+  color: var(--secondary-color);
   text-decoration: none;
 }
-.names a:hover {
-  opacity: 50%;
-  color: #ebccc4;
+
+.menu a:hover {
+  color: var(--highlight-color);
+  opacity: 20%;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-family: var(--primary-font-family);
+  letter-spacing: 13px;
+  margin-bottom: 100px;
+  margin-top: 170px;
+  text-transform: uppercase;
 }
 
 .container {
@@ -59,33 +71,12 @@ h1 {
 .second-group {
   margin-bottom: 200px;
 }
-button {
-  color: #698474;
-  font-size: 13px;
-  text-transform: uppercase;
-  padding: 5px 10px;
-  background: #f7f2f0;
-  border: 1px solid #ebccc4;
-}
-
-button:hover {
-  opacity: 50%;
-}
-
-.navbar-nav {
-  text-align: center;
-}
-
-.nav-link:hover {
-  opacity: 20%;
-}
 
 .footer {
   margin: 100px;
 }
 .foot {
-  margin-bottom: 20px;
-  background-color: #f7f2f0;
+  background-color: var(--highlight-color);
   padding: 10px;
   margin: 0;
   margin-right: -100;
@@ -93,15 +84,17 @@ button:hover {
 
 .erc-ink,
 .insta {
-  color: var(--background-color);
-  text-decoration: none;
-  font-style: italic;
+  color: var(--primary-color);
+  font-family: var(--secondary-font-family);
   font-size: 13px;
+  font-style: italic;
+  opacity: 70%;
+  text-decoration: none;
 }
 .erc-ink:hover,
 .insta:hover {
-  color: var(--branding-color);
-  opacity: 50%;
+  color: var(--secondary-color);
+  opacity: 20%;
 }
 
 .insta {
@@ -109,10 +102,11 @@ button:hover {
 }
 
 h3 {
-  color: var(--branding-color);
+  font-family: var(--primary-font-family);
   font-size: 15px;
-  line-height: 20px;
   font-style: italic;
+  letter-spacing: 2px;
+  line-height: 20px;
   text-align: center;
 }
 
