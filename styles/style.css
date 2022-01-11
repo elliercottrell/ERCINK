@@ -22,6 +22,19 @@ body {
   cursor: grabbing;
 }
 
+ul {
+  list-style: none;
+  text-align: right;
+  margin: 20px;
+  font-style: italic;
+  font-size: 13px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
 h1 {
   text-transform: uppercase;
   letter-spacing: 10px;
