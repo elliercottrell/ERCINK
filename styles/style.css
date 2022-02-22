@@ -12,6 +12,7 @@ body {
   color: var(--secondary-color);
 }
 .landing {
+  text-align: center;
   margin-bottom: 100px;
 }
 .landing a {
