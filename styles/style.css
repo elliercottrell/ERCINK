@@ -76,10 +76,11 @@ h1 {
 .inTouch,
 .inTouch a {
   font-family: var(--primary-font-family);
+  font-size: 13px;
   letter-spacing: 2px;
   text-align: center;
   font-style: italic;
-  color: var(--highlight-color);
+  color: var(--secondary-color);
   text-decoration: none;
   opacity: 80%;
   text-transform: uppercase;
