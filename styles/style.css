@@ -11,6 +11,12 @@ body {
   border: 6px solid var(--highlight-color);
   color: var(--secondary-color);
 }
+.opening {
+  height: 100vh;
+  background: var(--primary-color);
+  border: 6px solid var(--highlight-color);
+  color: var(--secondary-color);
+}
 .landing {
   text-align: center;
   margin-bottom: 100px;
