@@ -75,11 +75,15 @@ h1 {
   max-width: 800px;
 }
 
+a {
+  cursor: crosshair;
+}
 .second-group {
   margin-bottom: 200px;
 }
 
 .inTouch,
+.info,
 .inTouch a {
   font-family: var(--primary-font-family);
   font-size: 13px;
