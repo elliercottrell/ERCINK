@@ -61,6 +61,11 @@ li {
   opacity: 20%;
 }
 
+.title {
+  text-align: center;
+  padding: 0px 10px;
+}
+
 h1 {
   color: var(--secondary-color);
   font-family: var(--primary-font-family);
