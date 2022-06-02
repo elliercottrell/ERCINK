@@ -17,6 +17,48 @@ body {
   border: 6px solid var(--highlight-color);
   color: var(--secondary-color);
 }
+
+/* header test */
+.menuBody label {
+  font-family: var(--secondary-font-family);
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 1px;
+  cursor: crosshair;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.menuBody label:hover {
+  color: var(--highlight-color);
+  opacity: 20%;
+}
+
+.menuBody input:checked {
+  max-height: 100%;
+}
+.menuBody input {
+  display: none;
+}
+
+.menuBody input:checked ~ .top-content {
+  max-height: 100%;
+}
+.menuBody input {
+  display: none;
+}
+
+.menuBody a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.top-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* end of */
+
 .landing {
   text-align: center;
 }
@@ -37,7 +79,7 @@ body {
 
 ul {
   font-family: var(--secondary-font-family);
-  font-size: 12px;
+  font-size: 15px;
   font-style: italic;
   letter-spacing: 1px;
   list-style: none;
@@ -153,5 +195,14 @@ h3 {
   h1 {
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) {
+  .menuBody {
+    display: none;
   }
 }
