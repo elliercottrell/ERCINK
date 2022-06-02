@@ -146,6 +146,14 @@ a {
   opacity: 20%;
 }
 
+.goUp {
+  text-align: center;
+}
+.fa-angle-up {
+  color: var(--highlight-color);
+  font-size: 20px;
+}
+
 .foot {
   background-color: var(--highlight-color);
   padding: 10px;
