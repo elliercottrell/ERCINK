@@ -19,7 +19,8 @@ body {
 }
 
 /* header test */
-.menuBody label {
+.menuBody label,
+li {
   font-family: var(--secondary-font-family);
   font-size: 15px;
   font-style: italic;
@@ -29,7 +30,12 @@ body {
   font-style: italic;
 }
 
-.menuBody label:hover {
+.menuBody li {
+  display: block;
+}
+
+.menuBody label:hover,
+li:hover {
   color: var(--highlight-color);
   opacity: 20%;
 }
