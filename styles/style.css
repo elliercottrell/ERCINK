@@ -16,8 +16,8 @@ body {
 
 /* entrance page - index.html */
 @font-face {
-  font-family: myFirstFont;
-  src: url(AndaleMono.ttf);
+  font-family: "Andale Mono"; /*Can be any text*/
+  src: local("Andale Mono"), url("AndaleMono.ttf") format("truetype");
 }
 
 .opening {
